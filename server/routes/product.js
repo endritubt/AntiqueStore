@@ -1,5 +1,5 @@
-const router = require('express').Router()
-const Product = require('../models/product')
+const router = require('express').Router();
+const Product = require('../models/product');
 
 const upload = require('../middlewares/upload-photo');
 
@@ -18,29 +18,93 @@ router.post('/products', upload.single('photo'), async (req, res) => {
     res.json({
       status: true,
       message: 'Product saved successfully'
-    }) 
+    }) ;
   } catch (err) {
     res.status(500).json({
       success: false,
       message: err.message
-    })
+    });
+  }
+});
+
+// GET - Multiple
+router.get('/products', async (req, res) => {
+  try {
+    let products = await Product.find();
+    res.json({
+      success: true,
+      products: products,
+    });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message
+    });
   }
 })
 
-// GET - Sinlge
 
+// GET - Single
+router.get('/products/:id', async (req, res) => {
+  try {
+    let product = await Product.findOne({ _id: req.params.id });
+    res.json({
+      success: true,
+      product: product,
+    });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message
+    });
+  }
+});
 
+//  PUT  
+router.put('/products/:id', upload.single("photo"), async (req, res) => {
+  try {
+    let product = await Product.findOneAndUpdate({ _id: req.params.id }, {
+      $set: { 
+        title: req.body.title,
+        price: req.body.price,
+        category: req.body.category,
+        photo: req.body.photo,
+        description: req.body.description,
+        owner: req.body.owner,
+      },
+    }, { upsert: true });
 
-// GET - Multiple
-
-
-
-//  PUT 
-
+    res.json({
+      success: true,
+      updatedProduct: product,
+    });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message
+    });
+  }
+});
 
 
 // DELETE - Single
+router.delete('/products/:id', async (req, res) => {
+  try {
+    let deletedProduct = await Product.findByIdAndDelete({ _id: req.params.id });
 
+    if (deletedProduct) {
+      res.json({
+        status: true,
+        message: 'Product deleted successfully'
+      });
+    }
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message
+    });
+  }
+});
 
 
 // EXPORTS
