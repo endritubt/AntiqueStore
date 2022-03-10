@@ -1,0 +1,38 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\about.vue",
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "category",
+    "path": "/category",
+    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\category.vue",
+    "chunkName": "pages/category"
+  },
+  {
+    "name": "owner",
+    "path": "/owner",
+    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\owner.vue",
+    "chunkName": "pages/owner"
+  },
+  {
+    "name": "products",
+    "path": "/products",
+    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\products\\\\index.vue",
+    "chunkName": "pages/products/index"
+  },
+  {
+    "name": "products-id",
+    "path": "/products/:id",
+    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\products\\\\_id.vue",
+    "chunkName": "pages/products/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
