@@ -1,0 +1,14 @@
+{
+  "FeaturedProduct": {
+    "description": "Auto imported from components/FeaturedProduct.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "Search": {
+    "description": "Auto imported from components/Search.vue"
+  }
+}
