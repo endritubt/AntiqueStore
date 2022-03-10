@@ -2,43 +2,37 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\about.vue",
-    "chunkName": "pages/about",
-    "_name": "_676e865b"
+    "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\about.vue",
+    "chunkName": "pages/about"
   },
   {
     "name": "category",
     "path": "/category",
-    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\category.vue",
-    "chunkName": "pages/category",
-    "_name": "_d84103c0"
+    "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\category.vue",
+    "chunkName": "pages/category"
   },
   {
     "name": "owner",
     "path": "/owner",
-    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\owner.vue",
-    "chunkName": "pages/owner",
-    "_name": "_8f555afe"
+    "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\owner.vue",
+    "chunkName": "pages/owner"
   },
   {
     "name": "products",
     "path": "/products",
-    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\products\\\\index.vue",
-    "chunkName": "pages/products/index",
-    "_name": "_02b9023c"
+    "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\products\\\\index.vue",
+    "chunkName": "pages/products/index"
   },
   {
     "name": "products-id",
     "path": "/products/:id",
-    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\products\\\\_id.vue",
-    "chunkName": "pages/products/_id",
-    "_name": "_5fda63a4"
+    "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\products\\\\_id.vue",
+    "chunkName": "pages/products/_id"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_f1b33dc0"
+    "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]
