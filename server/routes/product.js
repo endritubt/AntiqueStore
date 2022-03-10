@@ -8,8 +8,8 @@ const upload = require('../middlewares/upload-photo');
 router.post('/products', upload.single('photo'), async (req, res) => {
   try {
     let product = new Product();
-    product.ownerID = req.body.ownerID;
-    product.categoryID = req.body.categoryID;
+    product.owner = req.body.ownerID;
+    product.category = req.body.categoryID;
     product.price = req.body.price;
     product.title = req.body.title;
     product.description = req.body.description
@@ -17,6 +17,9 @@ router.post('/products', upload.single('photo'), async (req, res) => {
     product.stockQuantity = req.body.stockQuantity;
 
     await product.save();
+
+    console.log(req.body);
+    console.log(product);
  
     res.json({
       status: true,
@@ -29,6 +32,33 @@ router.post('/products', upload.single('photo'), async (req, res) => {
     });
   }
 });
+
+// Post test
+
+// router.post('/products', (req, res) => {
+//   try {
+//     let product = new Product();
+//     product.ownerID = req.body.ownerID;
+//     product.categoryID = req.body.categoryID;
+//     product.price = req.body.price;
+//     product.title = req.body.title;
+//     product.description = req.body.description
+//     // product.photo = req.file.location;
+//     product.stockQuantity = req.body.stockQuantity;
+
+//     // await product.save();
+
+//     console.log(product);
+//     console.log(req.body);
+
+//     res.json(product);
+//   } catch (err) {
+//     res.status(500).json({
+//       success: false,
+//       message: err.message
+//     });
+//   }
+// });
 
 // GET - Multiple
 router.get('/products', async (req, res) => {

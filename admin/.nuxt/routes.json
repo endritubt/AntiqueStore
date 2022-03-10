@@ -3,36 +3,42 @@
     "name": "about",
     "path": "/about",
     "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_676e865b"
   },
   {
     "name": "category",
     "path": "/category",
     "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\category.vue",
-    "chunkName": "pages/category"
+    "chunkName": "pages/category",
+    "_name": "_d84103c0"
   },
   {
     "name": "owner",
     "path": "/owner",
     "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\owner.vue",
-    "chunkName": "pages/owner"
+    "chunkName": "pages/owner",
+    "_name": "_8f555afe"
   },
   {
     "name": "products",
     "path": "/products",
     "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\products\\\\index.vue",
-    "chunkName": "pages/products/index"
+    "chunkName": "pages/products/index",
+    "_name": "_02b9023c"
   },
   {
     "name": "products-id",
     "path": "/products/:id",
     "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\products\\\\_id.vue",
-    "chunkName": "pages/products/_id"
+    "chunkName": "pages/products/_id",
+    "_name": "_5fda63a4"
   },
   {
     "name": "index",
     "path": "/",
     "component": "D:\\\\Code\\\\Projects\\\\AntiqueStore\\\\admin\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_f1b33dc0"
   }
 ]

@@ -60,7 +60,7 @@
               <div class="a-spacing-top-large">
                 <span class="a-button-register">
                   <span class="a-button-inner">
-                    <span class="a-button-text" @click="onAddProduct ">Add Product</span>
+                    <span class="a-button-text" @click="onAddProduct">Add Product</span>
                   </span>
                 </span>
               </div>
@@ -70,7 +70,6 @@
         <div class="col-sm-3"></div>
       </div>
     </div>
-
   </main>
 </template>
 
@@ -100,7 +99,7 @@
 
     data() {
       return {
-        dategoryID: null,
+        categoryID: null,
         ownerID: null,
         title: '',
         price: 0,
@@ -123,14 +122,15 @@
         data.append('title', this.title);
         data.append('price', this.price);
         data.append('description', this.description);
-        data.append('ownerID', this.ownerID);
         data.append('stockQuantity', this.stockQuantity);
+        data.append('ownerID', this.ownerID);
         data.append('categoryID', this.categoryID); 
         data.append('photo', this.selectedFile, this.selectedFile.name);
 
-        let result = await this.$axios.$post('http://localhost:3000/api/products', data);
+        console.log(this.ownerID, this.categoryID);
+        // let result = await this.$axios.$post('http://localhost:3000/api/products', data);
 
-        this.$router.push('/');
+        // this.$router.push('/');
       }
     }
   };

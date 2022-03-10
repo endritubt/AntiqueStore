@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xl-2 col-lg-2 md-4 col-sm-4">
-          <!-- Sidebar -->
+        <!-- Sidebar -->
 
         </div>
         <!-- Main Content -->

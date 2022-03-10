@@ -137,7 +137,7 @@
 
         // console.log(data);
         // console.log(this.title)
-        // this.$router.push('/');
+        this.$router.push('/');
       }
     }
   };
