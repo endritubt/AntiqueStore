@@ -3,12 +3,14 @@
     "name": "signup",
     "path": "/signup",
     "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\client\\\\pages\\\\signup.vue",
-    "chunkName": "pages/signup"
+    "chunkName": "pages/signup",
+    "_name": "_4defc75c"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\client\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_e5127cf0"
   }
 ]
