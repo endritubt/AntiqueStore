@@ -1,5 +1,11 @@
 [
   {
+    "name": "signup",
+    "path": "/signup",
+    "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\client\\\\pages\\\\signup.vue",
+    "chunkName": "pages/signup"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\client\\\\pages\\\\index.vue",

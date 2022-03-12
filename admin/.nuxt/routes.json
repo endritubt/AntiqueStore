@@ -3,36 +3,42 @@
     "name": "about",
     "path": "/about",
     "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_404321b9"
   },
   {
     "name": "category",
     "path": "/category",
     "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\category.vue",
-    "chunkName": "pages/category"
+    "chunkName": "pages/category",
+    "_name": "_612bbe02"
   },
   {
     "name": "owner",
     "path": "/owner",
     "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\owner.vue",
-    "chunkName": "pages/owner"
+    "chunkName": "pages/owner",
+    "_name": "_ddac2442"
   },
   {
     "name": "products",
     "path": "/products",
     "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\products\\\\index.vue",
-    "chunkName": "pages/products/index"
+    "chunkName": "pages/products/index",
+    "_name": "_06c1801a"
   },
   {
     "name": "products-id",
     "path": "/products/:id",
     "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\products\\\\_id.vue",
-    "chunkName": "pages/products/_id"
+    "chunkName": "pages/products/_id",
+    "_name": "_0504c102"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Lenovo\\\\Desktop\\\\VueProj\\\\AntiqueStore\\\\admin\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_5ffafc7e"
   }
 ]
