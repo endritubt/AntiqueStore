@@ -8,7 +8,7 @@ export default {
     emailEmailConfirmationInstructions(email, name, token) {
         // setup email data
         let mailOptions = {
-            from: '"Veniqa Support" <support@veniqa.com>', // sender address
+            from: '"AntiqueStore Support" <pixendrit@outlook.com>', // sender address
             to: email, // list of receivers
             subject: 'Welcome to Veniqa - Please Confirm Your Email', // Subject line
             html: '<b>Hi </b>' +  name + '<br>Please click the link below to confirm your email address<br><br><button><a href="' + config.get('frontend_urls.email_confirmation_base_url') + '/' + token + '">Confirm Your Email Address</a></button>',
@@ -25,7 +25,7 @@ export default {
     emailPasswordResetInstructions(email, name, token) {
         // setup email data with unicode symbols
         let mailOptions = {
-            from: '"Veniqa Support" <support@veniqa.com>', // sender address
+            from: '"AntiqueStore Support" <pixendrit@outlook.com>', // sender address
             to: email, // list of receivers
             subject: 'Veniqa - Password Reset', // Subject line
             html: '<b>Hi </b>' +  name + '<br>Please click the link below to reset your password<br><br><button><a href="' + config.get('frontend_urls.password_reset_base_url') + '/' + token + '">Reset Password</a></button>',
@@ -43,7 +43,7 @@ export default {
     emailPasswordResetConfirmation(email, name) {
         // setup email data with unicode symbols
         let mailOptions = {
-            from: '"Veniqa Support" <support@veniqa.com>', // sender address
+            from: '"AntiqueStore Support" <pixendrit@outlook.com>', // sender address
             to: email, // list of receivers
             subject: 'Veniqa - Password Reset Successful', // Subject line
             html: '<b>Hi </b>' +  name + '<br>Your password has been successfully reset.<br><br>',
@@ -61,7 +61,7 @@ export default {
 
         // setup email data with unicode symbols
         let mailOptions = {
-            from: '"Veniqa Support" <support@veniqa.com>', // sender address
+            from: '"AntiqueStore Support" <pixendrit@outlook.com>', // sender address
             to: condensedOrderObj.user_email, // list of receivers
             subject: 'Veniqa - Order Received', // Subject line
             html: '<b>Hi </b>' + '<br>We have received your order.<br><br>',

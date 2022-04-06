@@ -1,12 +1,10 @@
 <template>
   <div id="main-page">
     <div class="main-bg"></div>
-    <h1 class="featured-title">SPRING 2019 COLLECTION</h1>
+    <h1 class="featured-title">A world of treasures from across the globe</h1>
     <div v-for="(design, did) in featuredDesigns" :key="did" class="designs">
       <design-entry :design="design" @shop="gotoProduct"/>
     </div>
-    <h1 class="featured-title">Hottest Trends</h1>
-    <featured-stripe/>
   </div>
 </template>
 

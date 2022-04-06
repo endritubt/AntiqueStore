@@ -25,8 +25,8 @@
               <thead>
                 <tr>
                   <th>Tariff Type</th>
-                  <th>Nepal Rate</th>
-                  <th>Bangladesh Rate</th>
+                  <th>Albania Rate</th>
+                  <th>Kosovo Rate</th>
                   <th></th>
                 </tr>
               </thead>

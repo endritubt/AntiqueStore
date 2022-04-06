@@ -30,7 +30,7 @@
         "exception_log_file_name": "exceptions.log"
     },
     "frontend_urls": {
-        "password_reset_base_url": "https://dev-veniqa-admin.netlify.com/#/password-reset"
+        "password_reset_base_url": "http://localhost:5202/#/password-reset"
     },
     "aws_settings": {
         "s3": {
@@ -44,12 +44,9 @@
     },
     "sendgrid": {
         "templates": {
-            "confirm_account_admin": "d-e2bc1bd1459747f3a7816b79986e4b36",
-            "reset_password_admin": "d-538b74add0574fcb9e6cd684fa83149b",
-            "confirmation_password_reset_admin": "d-b9efed7214f04c458ac4d9dde5628235"
+            "confirm_account_admin": "d-877824a36c9644aa89dada304d00a178",
+            "reset_password_admin": "d-29a8a6192f1249208ebadc456b0d1dec",
+            "confirmation_password_reset_admin": "d-8c9beefc7938476ab56843f38a189ba0"
         }
-    },
-    "khalti": {
-        "verification_url": "https://khalti.com/api/v2/payment/verify/"
     }
-}
+    }

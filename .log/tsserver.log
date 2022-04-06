@@ -1,0 +1,14 @@
+Info 0    [18:19:40.332] Starting TS Server
+Info 1    [18:19:40.335] Version: 4.6.3
+Info 2    [18:19:40.335] Arguments: /usr/bin/node /home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/pixendrit/AntiqueStore/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/df49abd7b8ee3f97b6610b41f02d8634/tscancellation*
+Info 3    [18:19:40.335] Platform: linux NodeVersion: 17 CaseSensitive: true
+Info 4    [18:19:40.335] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [18:19:40.346] Format host information updated
+Info 6    [18:19:40.354] Search path: /home/pixendrit/AntiqueStore/management-webclient/src
+Info 7    [18:19:40.354] For info: /home/pixendrit/AntiqueStore/management-webclient/src/config.js :: No config files found.
+Info 8    [18:19:40.358] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [18:19:40.807] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 448.5156939999433ms
+Info 10   [18:19:40.807] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [18:19:40.807] 	Files (19)
+
+Info 12   [18:19:40.807] -----------------------------------------------

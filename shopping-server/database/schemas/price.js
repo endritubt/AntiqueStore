@@ -13,4 +13,4 @@ let priceSchema = new mongoose.Schema({
     }
 }, {_id: false})
 
-module.exports = priceSchema; 
+module.exports = priceSchema;

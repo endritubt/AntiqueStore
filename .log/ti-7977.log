@@ -1,0 +1,73 @@
+[18:19:40.526] Global cache location '/home/pixendrit/.cache/typescript/4.6', safe file path '/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[18:19:40.526] Processing cache location '/home/pixendrit/.cache/typescript/4.6'
+[18:19:40.526] Trying to find '/home/pixendrit/.cache/typescript/4.6/package.json'...
+[18:19:40.529] Loaded content of '/home/pixendrit/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.586"},"devDependencies":{"@types/babel-core":"^6.25.7","@types/compression":"^1.7.2","@types/config":"^0.0.41","@types/connect-redis":"^0.0.18","@types/cookie-parser":"^1.4.2","@types/cors":"^2.8.12","@types/debug":"^4.1.7","@types/eslint":"^8.4.1","@types/eslint-config-prettier":"^6.11.0","@types/express":"^4.17.13","@types/express-session":"^1.17.4","@types/http-errors":"^1.8.2","@types/jade":"^0.0.31","@types/jsonwebtoken":"^8.5.8","@types/lodash":"^4.14.181","@types/luxon":"^2.3.1","@types/mongoose-paginate":"^5.0.11","@types/morgan":"^1.9.3","@types/node":"^17.0.21","@types/node-sass":"^4.11.2","@types/nodemailer":"^6.4.4","@types/nodemon":"^1.19.1","@types/passport":"^1.0.7","@types/passport-local":"^1.0.34","@types/rate-limit-redis":"^1.7.4","@types/react":"^17.0.41","@types/react-dom":"^17.0.14","@types/rimraf":"^3.0.2","@types/sass-loader":"^8.0.3","@types/tailwindcss":"^3.0.9","@types/tunnel-ssh":"^4.1.1","@types/uuid":"^8.3.4","@types/validator":"^13.7.2","@types/vue-datetime":"^1.0.1","@types/winjs":"^4.4.1"}}
+[18:19:40.529] Loaded content of '/home/pixendrit/.cache/typescript/4.6/package-lock.json'
+[18:19:40.539] Adding entry into typings cache: 'babel-core' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/babel-core/index.d.ts'
+[18:19:40.541] Adding entry into typings cache: 'compression' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/compression/index.d.ts'
+[18:19:40.543] Adding entry into typings cache: 'config' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/config/index.d.ts'
+[18:19:40.544] Adding entry into typings cache: 'connect-redis' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/connect-redis/index.d.ts'
+[18:19:40.546] Adding entry into typings cache: 'cookie-parser' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/cookie-parser/index.d.ts'
+[18:19:40.547] Adding entry into typings cache: 'cors' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/cors/index.d.ts'
+[18:19:40.551] Adding entry into typings cache: 'debug' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/debug/index.d.ts'
+[18:19:40.553] Adding entry into typings cache: 'eslint' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/eslint/index.d.ts'
+[18:19:40.554] Adding entry into typings cache: 'eslint-config-prettier' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/eslint-config-prettier/index.d.ts'
+[18:19:40.556] Adding entry into typings cache: 'express' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/express/index.d.ts'
+[18:19:40.557] Adding entry into typings cache: 'express-session' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/express-session/index.d.ts'
+[18:19:40.559] Adding entry into typings cache: 'http-errors' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/http-errors/index.d.ts'
+[18:19:40.560] Adding entry into typings cache: 'jade' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/jade/index.d.ts'
+[18:19:40.561] Adding entry into typings cache: 'jsonwebtoken' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/jsonwebtoken/index.d.ts'
+[18:19:40.564] Adding entry into typings cache: 'lodash' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/lodash/index.d.ts'
+[18:19:40.565] Adding entry into typings cache: 'luxon' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/luxon/index.d.ts'
+[18:19:40.566] Adding entry into typings cache: 'mongoose-paginate' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/mongoose-paginate/index.d.ts'
+[18:19:40.569] Adding entry into typings cache: 'morgan' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/morgan/index.d.ts'
+[18:19:40.572] Adding entry into typings cache: 'node' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/node/index.d.ts'
+[18:19:40.574] Adding entry into typings cache: 'node-sass' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/node-sass/index.d.ts'
+[18:19:40.575] Adding entry into typings cache: 'nodemailer' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/nodemailer/index.d.ts'
+[18:19:40.576] Adding entry into typings cache: 'nodemon' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/nodemon/index.d.ts'
+[18:19:40.578] Adding entry into typings cache: 'passport' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/passport/index.d.ts'
+[18:19:40.579] Adding entry into typings cache: 'passport-local' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/passport-local/index.d.ts'
+[18:19:40.581] Adding entry into typings cache: 'rate-limit-redis' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/rate-limit-redis/index.d.ts'
+[18:19:40.583] Adding entry into typings cache: 'react' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/react/index.d.ts'
+[18:19:40.585] Adding entry into typings cache: 'react-dom' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/react-dom/index.d.ts'
+[18:19:40.586] Adding entry into typings cache: 'rimraf' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/rimraf/index.d.ts'
+[18:19:40.587] Adding entry into typings cache: 'sass-loader' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/sass-loader/index.d.ts'
+[18:19:40.588] Adding entry into typings cache: 'tailwindcss' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/tailwindcss/index.d.ts'
+[18:19:40.589] Adding entry into typings cache: 'tunnel-ssh' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/tunnel-ssh/index.d.ts'
+[18:19:40.591] Adding entry into typings cache: 'uuid' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/uuid/index.d.ts'
+[18:19:40.592] Adding entry into typings cache: 'validator' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/validator/index.d.ts'
+[18:19:40.593] Adding entry into typings cache: 'vue-datetime' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/vue-datetime/index.d.ts'
+[18:19:40.594] Adding entry into typings cache: 'winjs' => '/home/pixendrit/.cache/typescript/4.6/node_modules/@types/winjs/index.d.ts'
+[18:19:40.594] Finished processing cache location '/home/pixendrit/.cache/typescript/4.6'
+[18:19:40.594] Process id: 7984
+[18:19:40.594] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[18:19:40.594] validateDefaultNpmLocation: false
+[18:19:40.594] Npm config file: /home/pixendrit/.cache/typescript/4.6/package.json
+[18:19:40.594] Updating types-registry npm package...
+[18:19:40.594] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[18:19:41.587]     Succeeded. stdout:
+    
+    up to date, audited 101 packages in 791ms
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[18:19:41.587] Updated types-registry npm package
+[18:19:41.614] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/pixendrit/AntiqueStore/management-webclient/src/config.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/pixendrit/AntiqueStore/management-webclient/src","kind":"discover"}
+[18:19:41.622] Loaded safelist from types map file '/home/pixendrit/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[18:19:41.623] Explicitly included types: []
+[18:19:41.623] Inferred typings from unresolved imports: []
+[18:19:41.623] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/pixendrit/AntiqueStore/management-webclient/src/bower_components","/home/pixendrit/AntiqueStore/management-webclient/src/node_modules"]}
+[18:19:41.623] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/pixendrit/AntiqueStore/management-webclient/src/bower_components","/home/pixendrit/AntiqueStore/management-webclient/src/node_modules"]}
+[18:19:41.623] DirectoryWatcher:: Added:: WatchInfo: /home/pixendrit/AntiqueStore/management-webclient/src/bower_components
+[18:19:41.624] DirectoryWatcher:: Added:: WatchInfo: /home/pixendrit/AntiqueStore/management-webclient/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:41.625] Elapsed:: 1.041099000023678ms DirectoryWatcher:: Added:: WatchInfo: /home/pixendrit/AntiqueStore/management-webclient/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:41.625] DirectoryWatcher:: Added:: WatchInfo: /home/pixendrit/AntiqueStore/management-webclient/src/node_modules
+[18:19:41.625] DirectoryWatcher:: Added:: WatchInfo: /home/pixendrit/AntiqueStore/management-webclient/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:41.625] Elapsed:: 0.08190699992701411ms DirectoryWatcher:: Added:: WatchInfo: /home/pixendrit/AntiqueStore/management-webclient/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:41.625] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[18:19:41.625] Response has been sent.
+[18:19:41.625] No new typings were requested as a result of typings discovery
